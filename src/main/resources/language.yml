@@ -1,0 +1,45 @@
+# Language configuration for PlayerPointLog
+# You can translate all messages here
+
+# General messages
+no-permission: "&cBạn không có quyền sử dụng lệnh này!"
+plugin-reloaded: "&aPlayerPointLog đã được tải lại thành công!"
+reloading: "&eĐang tải lại PlayerPointLog..."
+unknown-command: "&cLệnh không tồn tại. Tham gia discord.gg/coffox để xem các lệnh có sẵn."
+
+# Help messages
+help-header: "&6=== Trợ giúp PlayerPointLog ==="
+help-reload: "&f/playerpointlog reload &7- Tải lại plugin"
+help-status: "&f/playerpointlog status &7- Hiển thị trạng thái plugin"
+help-lookup: "&f/playerpointlog lookup <tên_người_chơi> [trang] &7- Xem lịch sử giao dịch"
+help-help: "&f/playerpointlog help &7- Hiển thị tin nhắn trợ giúp này"
+
+# Status messages
+status-header: "&6=== Trạng thái PlayerPointLog ==="
+status-version: "&fPhiên bản Plugin: &a{version}"
+status-database: "&fTrạng thái Database: {status}"
+status-connected: "&aĐã kết nối"
+status-disconnected: "&cMất kết nối"
+status-location: "&fVị trí Database: &7{location}"
+
+# Lookup messages
+lookup-usage: "&cCách sử dụng: /playerpointlog lookup <tên_người_chơi> [trang]"
+lookup-usage-short: "&cCách sử dụng: /plog lookup <tên_người_chơi> [trang]"
+lookup-invalid-page: "&cSố trang phải lớn hơn 0!"
+lookup-invalid-number: "&cSố trang không hợp lệ!"
+lookup-no-history: "&cKhông tìm thấy lịch sử giao dịch cho người chơi: {player}"
+lookup-no-page: "&cKhông tìm thấy giao dịch nào ở trang {page} cho người chơi: {player}"
+lookup-header: "&6=== Lịch sử giao dịch của {player} ==="
+
+# Transaction messages
+transaction-received: "&f [{time}] &e{player} &fđã nhận &a{amount} &fpoint từ &b{sender}"
+transaction-lost: "&f [{time}] &e{player} &fđã bị lấy &c{amount} &fbởi &b{receiver}"
+
+# Pagination
+pagination-simple: "&7---------------<<< Trang {page} trên {total} >>>---------------"
+pagination-previous-hover: "Nhấp để chuyển đến trang trước"
+pagination-next-hover: "Nhấp để chuyển đến trang tiếp theo"
+
+# Console messages
+console-previous: "Trang trước: /playerpointlog lookup {player} {page}"
+console-next: "Trang tiếp theo: /playerpointlog lookup {player} {page}"

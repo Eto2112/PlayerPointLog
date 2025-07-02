@@ -1,0 +1,12 @@
+#plugin config version, please do not change
+version: 1.0
+
+#'true' if you want plugin log send/get from console
+log-console: true
+
+#if you want to log /p take <player name>
+log-take: true
+#this will use player name as id for database
+use-player-name: true
+#this will use UUID as id for database (not recommend for offline geysermc server)
+use-player-UUID: false

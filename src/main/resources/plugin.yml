@@ -1,0 +1,26 @@
+name: PlayerPointLog
+version: '1.0'
+main: lbvn.eto2112.playerpointlog.PlayerPointLog
+api-version: 1.20
+authors:
+  - Eto2112
+description: Logs PlayerPoints transactions to database
+website: https://github.com/Eto2112/PlayerPointLog
+depend: [PlayerPoints]
+
+commands:
+  playerpointlog:
+    description: PlayerPointLog commands
+    usage: /<command> [reload|status|help|lookup <playername> [page]]
+    aliases: [ppl]
+  plog:
+    description: PlayerPointLog lookup commands
+    usage: /<command> lookup <playername> [page]
+
+permissions:
+  playerpointlog.admin:
+    description: Access to PlayerPointLog admin commands
+    default: op
+  playerpointlog.use:
+    description: Access to PlayerPointLog lookup commands
+    default: false
